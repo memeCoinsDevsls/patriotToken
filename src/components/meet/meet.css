@@ -1,0 +1,10 @@
+.meetUs{
+    width: 100%;
+    height: 88vh;
+    background-image: url('/public/US-flag.png');
+    background-size: cover;
+    display: flex;
+}
+.titulo-meet{
+    color: #0A3161;
+}

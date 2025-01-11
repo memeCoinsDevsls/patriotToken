@@ -1,0 +1,76 @@
+.about-us{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    background-image: url('/public/bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+h1, h2{
+    font-family: 'Anton SC', sans-serif;
+    letter-spacing: 1.5px;
+}
+.join-movement{
+    width: fit-content;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    background-color: white;
+    color: #B31942;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+.banner-news{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    background-color: #B31942;
+    align-items: center;
+}
+.news-1{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.news-1>p{
+    margin-bottom: 0;
+    height: fit-content;
+    font-size: 1.5rem;
+    letter-spacing: 6px;
+    font-family: 'Anton SC', sans-serif;
+}
+.news-2{
+    height: 100%;
+    width: 80%;
+    background-color: white;
+}
+.news-2>p{
+    color: #B31942;
+    font-size: 1.5rem;
+    font-family: 'Anton SC', sans-serif;
+    letter-spacing: 6px;
+    padding: 0.5rem;
+}
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.news-2 {
+    overflow: hidden;
+    position: relative;
+}
+
+.news-2>p {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+}
