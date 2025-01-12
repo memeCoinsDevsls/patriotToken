@@ -2,7 +2,7 @@ import "./meet.css";
 export const MeetUs = () => {
   return (
     <section id="meet-us" className="meetUs">
-      <div className="w-50 h-100 d-flex align-items-end d-sm-none">
+      <div className="w-50 h-100 d-flex align-items-end">
         <img
           className="w-auto h-75"
           src="/patriotToken1.png"
