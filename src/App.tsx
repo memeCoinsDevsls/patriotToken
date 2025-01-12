@@ -4,6 +4,7 @@ import { MeetUs } from "./components/meet/MeetUs"
 import { Tokenomics } from "./components/tokenomics/Tokenomics"
 import { HowBuy } from "./components/buy/HowBuy"
 import { FollowUs } from "./components/follow/FollowUs"
+import { Footer } from "./components/footer/Footer"
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
       <Tokenomics></Tokenomics>
       <HowBuy></HowBuy>
       <FollowUs></FollowUs>
+      <Footer></Footer>
     </>
   )
 }
