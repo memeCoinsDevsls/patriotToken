@@ -17,3 +17,8 @@ html, body {
     color: white;
     padding: 1rem;
 }
+@media (max-width: 768px) {
+    .contwdown{
+        font-size: 1.5rem;
+    }
+}
