@@ -9,10 +9,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.806);
 }
 h1, h2{
     font-family: 'Anton SC', sans-serif;
     letter-spacing: 1.5px;
+}
+.info-about{
+    font-family: 'Epilogue', sans-serif;
 }
 .join-movement{
     width: fit-content;
@@ -21,6 +25,7 @@ h1, h2{
     color: #B31942;
     border-radius: 10px;
     letter-spacing: 2px;
+    text-shadow: 0px 0px 0px;
 }
 .banner-news{
     width: 100%;
@@ -42,6 +47,7 @@ h1, h2{
     font-size: 1.5rem;
     letter-spacing: 6px;
     font-family: 'Anton SC', sans-serif;
+    
 }
 .news-2{
     height: 100%;
@@ -54,6 +60,7 @@ h1, h2{
     font-family: 'Anton SC', sans-serif;
     letter-spacing: 6px;
     padding: 0.5rem;
+    text-shadow: 0px 0px 0px;
 }
 @keyframes marquee {
     0% {
@@ -73,4 +80,26 @@ h1, h2{
     display: inline-block;
     white-space: nowrap;
     animation: marquee 20s linear infinite;
+}
+@media(max-width: 820px){
+    .about-us{
+        background-image: url('/public/bg-movil.jpeg')!important;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .about-us>div{
+        padding: 1rem!important;
+      
+    }
+    .news-1 {
+        height: 100%;
+        width: 35%;
+        padding: 0!important;
+    }
+    .news-1>p{
+        font-size: 1rem;
+    }
+    .news-2>p{
+        font-size: 1rem;
+    }
 }

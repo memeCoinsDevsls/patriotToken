@@ -5,11 +5,19 @@
     display: flex;
     position: fixed;
     z-index: 999;
-    background-color: #0A3161!important;
+    background-color: #0A3161 !important;
+    justify-content: space-between; /* Ajustar para distribución adecuada */
+    align-items: center;
 }
-
-a{
-    
+.nav-desktop {
+    width: 100%;
+    height: 100%;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+a {
     font-family: 'Anton SC', sans-serif;
     font-size: 1.2rem;
     color: white;
@@ -24,7 +32,7 @@ a:hover {
     transform: translateY(-5px);
 }
 
-.buy-patriot{
+.buy-patriot {
     font-size: 1.8rem;
     color: white;
     font-weight: bolder;
@@ -37,4 +45,80 @@ a:hover {
 
 .buy-patriot:hover {
     transform: translateY(-5px);
+}
+
+.nav-mobile {
+    display: none; 
+}
+
+.nav-mobile button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+}
+.brand{
+    font-size: 2rem!important;
+    width: fit-content;
+}
+.menu-links {
+    display: none;
+    padding-top: 1rem;
+}
+.menu-links> a {
+    font-size: 1.4rem;
+    letter-spacing: 6px;
+    padding-bottom: 0.5rem;
+}
+.nav-mobile .brand {
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Anton SC', sans-serif;
+    text-decoration: none;
+}
+
+.open> .buy-patriot {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem!important;
+}
+
+
+/* Diseño responsive */
+@media (max-width: 768px) {
+    .nav-patriot {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+
+    .nav-desktop {
+        display: none; /* Ocultar enlaces en desktop */
+    }
+
+    .nav-mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .menu-links {
+        display: none; /* Ocultar inicialmente */
+        flex-direction: column;
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .menu-links.open {
+        display: flex; /* Mostrar al hacer clic */
+    }
+    .banner-news{
+        padding: 0!important;
+    }
 }
