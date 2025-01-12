@@ -60,7 +60,7 @@
 @media (max-width: 720px) {
   .meetUs {
     width: 100%;
-    height: 88vh;
+    height: auto;
     display: flex;
     flex-direction: column-reverse;
     font-family: "Anton SC", sans-serif;
@@ -78,8 +78,8 @@
   .meetUs>div>img{
     margin-left: auto;
     margin-right: auto;
-    width: auto!important;
-    height: 90%!important;
+    width: 80%!important;
+    height: auto!important;
     margin-bottom: 2rem;
   }
   .info-meet{

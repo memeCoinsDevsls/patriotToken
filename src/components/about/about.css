@@ -87,10 +87,7 @@ h1, h2{
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .about-us>div{
-        padding: 1rem!important;
-      
-    }
+   
     .news-1 {
         height: 100%;
         width: 35%;
@@ -98,8 +95,9 @@ h1, h2{
     }
     .news-1>p{
         font-size: 1rem;
+        text-align: center;
     }
     .news-2>p{
-        font-size: 1rem;
+        margin-bottom: 0!important;
     }
 }
