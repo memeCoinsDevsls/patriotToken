@@ -19,11 +19,11 @@ export const FollowUs = () => {
           <span className="dynamic-word">{words[currentWordIndex]}</span>
           <span className="us">Us</span>
         </div>
-        <a className="link-follow" href="" target="_blank">
+        <a className="link-follow" href="https://t.me/+6tDIuNoh-t0wZDRh" target="_blank">
           <span>Telegram community</span>
           <img className="h-75" src="/open_in_new.png" alt="icon-new-tab" />
         </a>
-        <a className="link-follow" href="" target="_blank">
+        <a className="link-follow" href="https://x.com/PatriotT39252" target="_blank">
           <span>Stay tuned on X</span>
           <img className="h-75" src="/open_in_new.png" alt="icon-new-tab" />
         </a>
