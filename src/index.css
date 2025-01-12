@@ -11,3 +11,9 @@ html, body {
 #meet-us{
     scroll-margin-top: 12vh!important;
 }
+.contwdown{
+    font-family: 'Anton SC';
+    font-size: 1.8rem;
+    color: white;
+    padding: 1rem;
+}

@@ -1,4 +1,5 @@
 import  { useState } from "react";
+import { CountDown } from "../countdown/CountDown";
 import "./navbar.css";
 
 export const Navbar = () => {
@@ -13,6 +14,7 @@ export const Navbar = () => {
       {/* Sección mobile */}
       <div className="nav-mobile">
         <a href="#meet-us" className="brand">Patriot Token</a>
+        <CountDown></CountDown>
         <button onClick={toggleMenu}>☰</button>
       </div>
 
@@ -44,6 +46,7 @@ export const Navbar = () => {
         <a className="buy-patriot" href="#about-us">
         Launch January 20th
         </a>
+        <CountDown></CountDown>
       </section> 
       </div>
     </nav>
