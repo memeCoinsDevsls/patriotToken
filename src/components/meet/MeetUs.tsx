@@ -20,7 +20,7 @@ export const MeetUs = () => {
               will <strong>revolutionize the crypto world</strong>.
               <br />
               <br />
-              PatriotToken is not just a coin, <strong>it's a movement.</strong>
+              PatriotToken is not just a coin, <strong>it's a movement. </strong>
               Let's aim straight for the moon <strong>together!</strong> 🚀
             </p>
           </div>
