@@ -6,7 +6,7 @@
     position: fixed;
     z-index: 999;
     background-color: #0A3161 !important;
-    justify-content: space-between; /* Ajustar para distribución adecuada */
+    justify-content: space-between;
     align-items: center;
 }
 .nav-desktop {

@@ -1,0 +1,92 @@
+.buy-info{
+    background-color: #B31942;
+    height: 88vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-title-buy{
+    width: 49%;
+    height: 100%;
+    font-family: 'Anton Sc';
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 7rem;
+    padding: 2rem 0rem 2rem 2rem;
+    align-items: flex-end;
+    justify-content: center;
+    letter-spacing: 3px;
+}
+.div-title-buy>p{
+    margin: 0!important;
+    height: 8rem;
+}
+.steps-buy{
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.steps-buy>div{
+    width: 100%;
+    margin-top: 10px;
+}
+.steps-buy>div>span{
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    font-family: 'Anton Sc';
+    color: white;
+    margin-bottom: 4px;
+}
+.steps-buy>div>p{
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid 2px white;
+    width: fit-content;
+    font-family: 'Epilogue';
+    color: white;
+}
+
+@media(max-width: 768px){
+    .buy-info{
+        display: flex;
+        flex-direction: column;
+    }
+    .div-title-buy{
+        width: 100%;
+        height: 40%;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+    }
+    .div-title-buy>p{
+        padding-right: 10px;
+    }
+    .steps-buy {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+    .steps-buy>div {
+        width: 100%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    .steps-buy>div>span{
+        font-size: 2rem;
+    }
+    .steps-buy>div>p{
+        font-size: 2rem;
+    }
+}
