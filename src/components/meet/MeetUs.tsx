@@ -16,7 +16,7 @@ export const MeetUs = () => {
             <p>
               <strong>PatriotToken</strong> is the{" "}
               <strong>Solana-based memecoin</strong>. Inspired by Donald Trump's
-              leadership and his return to power, and how his administration
+              leadership and his return to power, and how his governmet
               will <strong>revolutionize the crypto world</strong>.
               <br />
               <br />

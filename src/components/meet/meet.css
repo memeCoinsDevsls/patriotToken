@@ -19,7 +19,7 @@
 .bubble-container {
   position: relative;
   max-width: 85%;
-  font-family: "Epilogue", sans-serif;
+  font-family: "Epilogue", sans-serif
 }
 
 .bubble {
@@ -28,7 +28,7 @@
   padding: 20px;
   border-radius: 10px;
   font-size: 1.2rem;
-  letter-spacing: 6px;
+  letter-spacing: 1px;
   line-height: 1.5;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   position: relative;
