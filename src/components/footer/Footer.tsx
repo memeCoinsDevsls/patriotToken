@@ -11,7 +11,7 @@ export const Footer = () => {
             <img className="mx-2" src="/x.svg" alt="" />
           </a>
 
-          <a href="https://t.me/+6tDIuNoh-t0wZDRh" target="_blank">
+          <a href="https://t.me/patriotokenportal" target="_blank">
             <img className="mx-2" src="/telegram.svg" alt="" />
           </a>
         </div>

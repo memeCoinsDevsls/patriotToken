@@ -23,7 +23,7 @@ export const Navbar = () => {
         <a  href="https://x.com/PatriotT39252" target="_blank" rel="noopener noreferrer">
           <img className="mx-2" src="/x.svg" alt="" /> Follow Us
         </a>
-        <a href="https://t.me/+6tDIuNoh-t0wZDRh" target="_blank" rel="noopener noreferrer">
+        <a href="https://t.me/patriotokenportal" target="_blank" rel="noopener noreferrer">
           <img className="mx-2" src="/telegram.svg" alt="" /> Join Us
         </a>
         <a onClick={toggleMenu} className="buy-patriot" href="#about-us">Launch January 20th</a>
