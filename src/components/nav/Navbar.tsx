@@ -26,7 +26,7 @@ export const Navbar = () => {
         <a href="https://t.me/patriotokenportal" target="_blank" rel="noopener noreferrer">
           <img className="mx-2" src="/telegram.svg" alt="" /> Join Us
         </a>
-        <a onClick={toggleMenu} className="buy-patriot" href="#about-us">Launch January 20th</a>
+        <a onClick={toggleMenu} className="buy-patriot mb-2" href="#about-us">Launch January 20th</a>
       </div>
 
       {/* Enlaces desktop (sin cambios en el diseño original) */}
