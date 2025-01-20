@@ -26,7 +26,7 @@ export const Navbar = () => {
         <a href="https://t.me/patriotokenportal" target="_blank" rel="noopener noreferrer">
           <img className="mx-2" src="/telegram.svg" alt="" /> Join Us
         </a>
-        <a onClick={toggleMenu} className="buy-patriot mb-2" href="#about-us">Launch January 20th</a>
+        <a onClick={toggleMenu} className="buy-patriot mb-2" href="https://dexscreener.com/solana/yzXVWWVoKzSMk9M6U117kPud6A7GNpKZY9Lh8Zgpump" target="_blank">Buy PatriotToken</a>
       </div>
 
       {/* Enlaces desktop (sin cambios en el diseño original) */}
@@ -42,11 +42,10 @@ export const Navbar = () => {
           <img className="mx-2" src="/telegram.svg" alt="" /> Join Us
         </a>
       </section>
-      <section className="w-50 h-100 d-flex justify-content-end align-items-center">
-        <a className="buy-patriot" href="#about-us">
-        Launch January 20th
+      <section className="w-50 h-100 d-flex justify-content-end align-items-center"  >
+        <a className="buy-patriot" target="_blank" href="https://dexscreener.com/solana/yzXVWWVoKzSMk9M6U117kPud6A7GNpKZY9Lh8Zgpump">
+        Buy PatriotToken
         </a>
-        <CountDown></CountDown>
       </section> 
       </div>
     </nav>

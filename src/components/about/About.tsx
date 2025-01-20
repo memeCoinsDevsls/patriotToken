@@ -1,5 +1,8 @@
 import "./about.css";
 export const About = () => {
+  const buyToken = () => {
+    window.open("https://dexscreens.com/solana/yzXVWWVoKzSMk9M6U117kPud6A7GNpKZY9Lh8Zgpump", "_blank");
+  }
   return (
     <section id="about-us" className="about-us">
       <div className="p-5 pb-1">
@@ -11,8 +14,8 @@ export const About = () => {
           The memecoin that unites progress, leadership and community in a
           global movement.
         </h2>
-        <h2 className="join-movement">
-          Launch January 20th, 12M Washington D.C. time
+        <h2 onClick={buyToken}  className="join-movement">
+          Join the movement and let's aim straight for the moon together! 🚀
         </h2>
       </div>
 
