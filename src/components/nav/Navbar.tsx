@@ -14,7 +14,7 @@ export const Navbar = () => {
       <div className="nav-mobile">
         <a href="#meet-us" className="brand">Patriot Token</a>
         <a className="buy-patriot" target="_blank" href="https://dexscreener.com/solana/yzXVWWVoKzSMk9M6U117kPud6A7GNpKZY9Lh8Zgpump">
-        Buy PatriotToken
+        Buy
         </a>
         <button onClick={toggleMenu}>☰</button>
       </div>
