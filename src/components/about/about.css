@@ -84,7 +84,7 @@ h1, h2{
   .news-2 > p {
     display: inline-block;
     white-space: nowrap;
-    animation: marquee 5s linear infinite;
+    animation: marquee 60s linear infinite;
     padding-left: 100%; /* Asegura que el texto comience fuera de la vista */
   }
 @media(max-width: 820px){
