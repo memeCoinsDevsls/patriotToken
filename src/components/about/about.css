@@ -69,23 +69,24 @@ h1, h2{
 }
 @keyframes marquee {
     0% {
-        transform: translateX(100%);
+      transform: translateX(0);
     }
     100% {
-        transform: translateX(-100%);
+      transform: translateX(-50%); /* Desplaza solo el 50% del ancho del texto */
     }
-}
-
-.news-2 {
+  }
+  
+  .news-2 {
     overflow: hidden;
     position: relative;
-}
-
-.news-2>p {
+  }
+  
+  .news-2 > p {
     display: inline-block;
     white-space: nowrap;
     animation: marquee 20s linear infinite;
-}
+    padding-left: 100%; /* Asegura que el texto comience fuera de la vista */
+  }
 @media(max-width: 820px){
     .about-us{
         background-image: url('/public/bg-movil.jpeg')!important;

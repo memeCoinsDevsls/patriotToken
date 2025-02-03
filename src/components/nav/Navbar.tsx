@@ -1,5 +1,4 @@
 import  { useState } from "react";
-import { CountDown } from "../countdown/CountDown";
 import "./navbar.css";
 
 export const Navbar = () => {
@@ -14,7 +13,9 @@ export const Navbar = () => {
       {/* Sección mobile */}
       <div className="nav-mobile">
         <a href="#meet-us" className="brand">Patriot Token</a>
-        <CountDown></CountDown>
+        <a className="buy-patriot" target="_blank" href="https://dexscreener.com/solana/yzXVWWVoKzSMk9M6U117kPud6A7GNpKZY9Lh8Zgpump">
+        Buy PatriotToken
+        </a>
         <button onClick={toggleMenu}>☰</button>
       </div>
 

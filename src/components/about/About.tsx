@@ -26,6 +26,18 @@ export const About = () => {
         <div className="news-2">
           <p>
             Donald Trump IS THE NEW PRESIDENT AND WILL LEAD US INTO THE BULLRUN{" "}
+            Donald Trump IS THE NEW PRESIDENT AND WILL LEAD US INTO THE BULLRUN{" "}
+            Donald Trump IS THE NEW PRESIDENT AND WILL LEAD US INTO THE BULLRUN{" "}
+            Donald Trump IS THE NEW PRESIDENT AND WILL LEAD US INTO THE BULLRUN{" "}
+            Donald Trump IS THE NEW PRESIDENT AND WILL LEAD US INTO THE BULLRUN{" "}
+            Donald Trump IS THE NEW PRESIDENT AND WILL LEAD US INTO THE BULLRUN{" "}
+            Donald Trump IS THE NEW PRESIDENT AND WILL LEAD US INTO THE BULLRUN{" "}
+            Donald Trump IS THE NEW PRESIDENT AND WILL LEAD US INTO THE BULLRUN{" "}
+            Donald Trump IS THE NEW PRESIDENT AND WILL LEAD US INTO THE BULLRUN{" "}
+            Donald Trump IS THE NEW PRESIDENT AND WILL LEAD US INTO THE BULLRUN{" "}
+            Donald Trump IS THE NEW PRESIDENT AND WILL LEAD US INTO THE BULLRUN{" "}
+            Donald Trump IS THE NEW PRESIDENT AND WILL LEAD US INTO THE BULLRUN{" "}
+
           </p>
         </div>
       </div>
